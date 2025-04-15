@@ -1,1 +1,14 @@
-/* Пиши стили тут */
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.rating {
+    direction: rtl;
+    display: inline-flex;
+}
+
+.rating img:hover, .rating img:hover ~ img {
+    background-image: url('img/star.png');
+    background-size: contain;
+}
